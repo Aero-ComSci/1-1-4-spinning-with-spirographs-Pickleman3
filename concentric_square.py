@@ -1,4 +1,7 @@
 import turtle
+#Make Screen 800x800
+screen = turtle.Screen()
+screen.screensize(800, 800)
 turtle.goto(0,0)
 10,
 for i in range(4):
