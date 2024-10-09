@@ -1,10 +1,23 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/SkD24yV8)
 # 1.1.4Spirographs
 
 *Complete the following.*
 
 1. Compare and contrast zero-iteration conditions and infinite loops.
-2. A link to your code where you solve the following problem. Take the screen size of 800px. Create code or algorithm that always places the object(s), up to 5, in the center an equal distance from one another and from the edges of the screen.
-3. Concentric Squares -- Add a screenshot of your result and the code to create it on your repo.
+ A zero-iteration condition is a situation where a loop or a block of code that is supposed to execute zero times is evaluated. This usually occurs when the condition for entering the loop is false from the start.
+Ex: 
+count = 0
+while count > 10:  
+    print(count)
+    count += 1
+
+Infinite loops: An infinite loop is a loop that continues to execute indefinitely because its condition always evaluates to true, or it has no terminating condition.
+
+Count  = 11
+while count>10:
+   print(count)
+3. A link to your code where you solve the following problem. Take the screen size of 800px. Create code or algorithm that always places the object(s), up to 5, in the center an equal distance from one another and from the edges of the screen.
+4. Concentric Squares -- Add a screenshot of your result and the code to create it on your repo.
 Objective: Write a Python program using the turtle module to draw a pattern of concentric squares. The pattern should be created using nested loops.
 
 Instructions:
@@ -37,5 +50,3 @@ Use the forward() and right() methods to draw the sides of the squares.
 6. Insert a screenshot or picture of the algorith you used for your tokenizer on the previous activity.
 7. Give an example of an undecidable problem, attach code.
    
-
-
