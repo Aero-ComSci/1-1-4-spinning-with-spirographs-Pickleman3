@@ -1,4 +1,4 @@
-The code is from chat gpt and basically the Halting Problem asks whether a given program will finish running or continue to run indefinitely for a particular input. It proves there is no general algorithm that can solve this problem for all possible program-input pairs.
+#The code is from chat gpt and basically the Halting Problem asks whether a given program will finish running or continue to run indefinitely for a particular input. It proves there is no general algorithm that can solve this problem for all possible program-input pairs.
 def halting_problem(program, input_value):
     try:
         # This is a simplified representation; Python cannot evaluate arbitrary code directly.
